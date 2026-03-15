@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bengkel HP Erman – Service Professional & HP Second Terpercaya</title>
+    <meta name="description"
+        content="Bengkel HP Erman: Service HP cepat, profesional, bergaransi. Jual beli HP second berkualitas. Layar, baterai, charger, software, kamera & lebih.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <a href="#home" class="nav-logo">
+            <div class="nav-logo-icon"><i class="fas fa-screwdriver-wrench"></i></div>
+            <span class="nav-logo-text">Bengkel HP <span>Erman</span></span>
+        </a>
+        <div class="nav-links">
+            <a href="#home">Beranda</a>
+            <a href="#services">Layanan</a>
+            <a href="#products">HP Second</a>
+            <a href="#about">Tentang</a>
+            <a href="#contact" class="nav-cta">Hubungi Kami</a>
+        </div>
+        <button class="hamburger" id="mobile-menu-btn" aria-label="Menu"><i class="fas fa-bars"></i></button>
+    </nav>
+    <div id="mobile-menu">
+        <a href="#home" onclick="closeMobileMenu()">Beranda</a>
+        <a href="#services" onclick="closeMobileMenu()">Layanan</a>
+        <a href="#products" onclick="closeMobileMenu()">HP Second</a>
+        <a href="#about" onclick="closeMobileMenu()">Tentang</a>
+        <a href="#contact" onclick="closeMobileMenu()">Hubungi Kami</a>
+    </div>
+
+    <!-- HERO -->
+    <section id="home">
+        <div class="hero-bg-img"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+            <div class="hero-badge"><i class="fas fa-circle-check"></i> Terpercaya & Bergaransi</div>
+            <h1 class="hero-title">
+                Service HP <span class="accent">Cepat</span> &<br>
+                <span class="accent2">Profesional</span> Terbaik
+            </h1>
+            <p class="hero-sub">Bengkel HP Erman hadir dengan teknisi berpengalaman, sparepart original, dan garansi
+                untuk setiap perbaikan. Bawa HP Anda, kami yang urus sisanya.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn-primary"><i class="fas fa-tools"></i> Lihat Layanan</a>
+                <button onclick="openWhatsApp('Saya mau konsultasi service HP')" class="btn-ghost"><i
+                        class="fab fa-whatsapp"></i> Chat WhatsApp</button>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <div class="hero-stat-num">50<span>+</span></div>
+                    <div class="hero-stat-label">HP Diperbaiki</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-num">15<span>+</span></div>
+                    <div class="hero-stat-label">HP Terjual</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-num">100<span>%</span></div>
+                    <div class="hero-stat-label">Pelanggan Puas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features">
+        <div class="features-grid">
+            <div class="feature-card reveal delay-1">
+                <div class="feature-icon orange"><i class="fas fa-bolt"></i></div>
+                <div class="feature-text">
+                    <h4>Service Super Cepat</h4>
+                    <p>Perbaikan umum selesai dalam 60 menit</p>
+                </div>
+            </div>
+            <div class="feature-card reveal delay-2">
+                <div class="feature-icon teal"><i class="fas fa-shield-halved"></i></div>
+                <div class="feature-text">
+                    <h4>Garansi Service</h4>
+                    <p>Garansi hingga 3 hari tiap perbaikan</p>
+                </div>
+            </div>
+            <div class="feature-card reveal delay-3">
+                <div class="feature-icon blue"><i class="fas fa-microchip"></i></div>
+                <div class="feature-text">
+                    <h4>Sparepart Original</h4>
+                    <p>Komponen berkualitas terjamin</p>
+                </div>
+            </div>
+            <div class="feature-card reveal delay-4">
+                <div class="feature-icon pink"><i class="fas fa-tag"></i></div>
+                <div class="feature-text">
+                    <h4>Harga Transparan</h4>
+                    <p>Biaya jelas sebelum perbaikan dimulai</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="services-layout">
+            <div>
+                <div class="section-header">
+                    <div class="section-tag">Layanan Kami</div>
+                    <h2 class="section-title reveal">Solusi Lengkap<br>HP Anda</h2>
+                    <p class="section-sub reveal delay-1">Dari layar pecah hingga software bermasalah, kami siap
+                        menangani semua kerusakan HP Anda dengan cepat dan profesional.</p>
+                </div>
+                <div class="services-cta reveal delay-2">
+                    <button onclick="openWhatsApp('Konsultasi Service HP')" class="btn-primary"><i
+                            class="fab fa-whatsapp"></i> Konsultasi Gratis</button>
+                </div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal delay-1">
+                    <div class="service-icon-wrap s-blue"><i class="fas fa-mobile-screen-button"></i></div>
+                    <h3>Ganti Layar</h3>
+                    <p>Layar pecah atau sentuh tidak responsif? Kami pulihkan tampilan HP Anda.</p>
+                    <div class="service-footer">
+                        <span class="service-price">Mulai 300K</span>
+                        <span class="service-time"><i class="fas fa-clock"></i> 60-180 menit</span>
+                    </div>
+                </div>
+                <div class="service-card reveal delay-2">
+                    <div class="service-icon-wrap s-green"><i class="fas fa-battery-full"></i></div>
+                    <h3>Ganti Baterai</h3>
+                    <p>Daya cepat habis atau tidak bisa charging? Pasang baterai baru sekarang.</p>
+                    <div class="service-footer">
+                        <span class="service-price">Mulai 150K</span>
+                        <span class="service-time"><i class="fas fa-clock"></i> 15-60 menit</span>
+                    </div>
+                </div>
+                <div class="service-card reveal delay-3">
+                    <div class="service-icon-wrap s-purple"><i class="fas fa-plug-circle-bolt"></i></div>
+                    <h3>Port Charger</h3>
+                    <p>Masalah pengisian daya? Kami perbaiki atau ganti port charger yang rusak.</p>
+                    <div class="service-footer">
+                        <span class="service-price">Mulai 120K</span>
+                        <span class="service-time"><i class="fas fa-clock"></i> 60-120 menit</span>
+                    </div>
+                </div>
+                <div class="service-card reveal delay-4">
+                    <div class="service-icon-wrap s-red"><i class="fas fa-code"></i></div>
+                    <h3>Perbaikan Software</h3>
+                    <p>Bootloop, hang, atau virus? Kami optimalkan performa sistem HP Anda.</p>
+                    <div class="service-footer">
+                        <span class="service-price">Mulai 200K</span>
+                        <span class="service-time"><i class="fas fa-clock"></i> 1-2 hari</span>
+                    </div>
+                </div>
+                <div class="service-card reveal delay-5">
+                    <div class="service-icon-wrap s-indigo"><i class="fas fa-droplet"></i></div>
+                    <h3>HP Kena Air</h3>
+                    <p>Jangan panik! Bawa segera HP Anda untuk penanganan darurat profesional.</p>
+                    <div class="service-footer">
+                        <span class="service-price">Mulai 400K</span>
+                        <span class="service-time"><i class="fas fa-clock"></i> 1-2 hari</span>
+                    </div>
+                </div>
+                <div class="service-card reveal delay-1">
+                    <div class="service-icon-wrap s-cyan"><i class="fas fa-camera"></i></div>
+                    <h3>Perbaikan Kamera</h3>
+                    <p>Kamera buram atau tidak berfungsi? Kami ganti modul kamera dengan yang baru.</p>
+                    <div class="service-footer">
+                        <span class="service-price">Mulai 250K</span>
+                        <span class="service-time"><i class="fas fa-clock"></i> 30-90 menit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products">
+        <div style="max-width:1200px;margin:0 auto">
+            <div class="section-header">
+                <div class="section-tag">HP Second</div>
+                <h2 class="section-title reveal">Pilihan HP Second<br>Berkualitas</h2>
+                <p class="section-sub reveal delay-1">Setiap unit telah dicek & diuji. Tersedia garansi toko untuk
+                    ketenangan pikiran Anda.</p>
+            </div>
+            <div class="filter-bar reveal delay-2">
+                <button class="filter-btn active" onclick="filterProducts('all', this)">Semua</button>
+                <button class="filter-btn" onclick="filterProducts('samsung', this)">Samsung</button>
+                <button class="filter-btn" onclick="filterProducts('oppo', this)">Oppo</button>
+                <button class="filter-btn" onclick="filterProducts('xiaomi', this)">Xiaomi</button>
+                <button class="filter-btn" onclick="filterProducts('vivo', this)">Vivo</button>
+                <button class="filter-btn" onclick="filterProducts('iphone', this)">iPhone</button>
+            </div>
+            <div id="products-grid" class="products-grid"></div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+        <div class="section-header center">
+            <div class="section-tag">Testimoni</div>
+            <h2 class="section-title reveal">Apa Kata Pelanggan Kami?</h2>
+            <p class="section-sub reveal delay-1">Ribuan pelanggan puas mempercayakan HP mereka kepada kami.</p>
+        </div>
+        <div class="testimonials-grid" style="max-width:1200px;margin:0 auto">
+            <div class="testi-card reveal delay-1">
+                <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="testi-text">"Bengkel ini luar biasa! HP saya layarnya pecah parah, diperbaiki dalam waktu
+                    singkat dan hasilnya sangat rapi. Harganya juga bersahabat banget. Rekomen!"</p>
+                <div class="testi-user">
+                    <div class="testi-avatar">BS</div>
+                    <div>
+                        <div class="testi-name">Budi Santoso</div>
+                        <div class="testi-role">Pelanggan Ganti Layar</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card reveal delay-2">
+                <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="testi-text">"Saya beli HP second di sini, kondisinya seperti baru dan ada garansi. Adminnya
+                    ramah dan sangat membantu. Tidak ragu lagi rekomendasikan ke teman!"</p>
+                <div class="testi-user">
+                    <div class="testi-avatar">SD</div>
+                    <div>
+                        <div class="testi-name">Sari Dewi</div>
+                        <div class="testi-role">Pembeli HP Second</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card reveal delay-3">
+                <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                <p class="testi-text">"HP saya mati total karena kena air, sempat hopeless. Tapi di Bengkel HP Erman
+                    bisa diselamatkan! Sangat profesional dan tahu apa yang dilakukan."</p>
+                <div class="testi-user">
+                    <div class="testi-avatar">AR</div>
+                    <div>
+                        <div class="testi-name">Ahmad Rizki</div>
+                        <div class="testi-role">Pelanggan HP Kena Air</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="about-layout">
+            <div class="about-img-wrap reveal-l">
+                <div class="about-img">
+                    <img src="about_shop.png" alt="Interior Bengkel HP Erman"
+                        onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a1e35,#131627)'">
+                </div>
+                <div class="about-float-card reveal delay-3">
+                    <div class="num">3+</div>
+                    <div class="label">Tahun Pengalaman</div>
+                </div>
+            </div>
+            <div class="about-text reveal-r">
+                <div class="section-tag">Tentang Kami</div>
+                <h2 class="section-title">Bengkel HP Erman,<br>Pilihan Tepat<br><span
+                        style="color:var(--orange)">Anda</span></h2>
+                <p class="section-sub" style="margin-bottom:28px">Hadir sebagai solusi service cepat tanpa mengorbankan
+                    kualitas. Didukung teknisi berpengalaman dan komitmen 100% kepuasan pelanggan.</p>
+                <ul class="about-list">
+                    <li><i class="fas fa-circle-check"></i><span>Teknisi berpengalaman dan bersertifikat di
+                            bidangnya</span></li>
+                    <li><i class="fas fa-circle-check"></i><span>Sparepart original berkualitas dengan garansi
+                            resmi</span></li>
+                    <li><i class="fas fa-circle-check"></i><span>Proses perbaikan transparan — tidak ada biaya
+                            tersembunyi</span></li>
+                    <li><i class="fas fa-circle-check"></i><span>Garansi service hingga 3 hari setelah perbaikan
+                            selesai</span></li>
+                </ul>
+                <div class="about-stats">
+                    <div>
+                        <div class="about-stat-num" style="color:var(--orange)">50+</div>
+                        <div class="about-stat-label">Unit Diperbaiki</div>
+                    </div>
+                    <div>
+                        <div class="about-stat-num" style="color:var(--teal)">15+</div>
+                        <div class="about-stat-label">Unit Terjual</div>
+                    </div>
+                    <div>
+                        <div class="about-stat-num" style="color:#748ffc">98%</div>
+                        <div class="about-stat-label">Tingkat Kepuasan</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="contact-glow1"></div>
+        <div class="contact-glow2"></div>
+        <div class="contact-inner">
+            <div class="section-tag">Kontak Kami</div>
+            <h2 class="section-title reveal">Butuh Bantuan<br>Cepat? <span style="color:var(--orange)">Hubungi</span>
+                Kami!</h2>
+            <p class="section-sub reveal delay-1">Jangan biarkan HP rusak mengganggu hari Anda. Tim kami siap membantu
+                kapan saja — cepat, ramah, dan profesional.</p>
+            <div class="contact-btns reveal delay-2">
+                <button onclick="openWhatsApp('Saya mau service HP')" class="btn-wa"><i class="fab fa-whatsapp"></i>
+                    Chat WhatsApp Sekarang</button>
+                <a href="tel:+6281340882207" class="btn-call"><i class="fas fa-phone"></i> 0813-4088-2207</a>
+            </div>
+            <div class="contact-info-bar reveal delay-3">
+                <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>Jl. Jendral Sudirman No. 123</span>
+                </div>
+                <div class="info-item"><i class="fas fa-clock"></i><span>Senin – Sabtu, 09.00 – 18.00</span></div>
+                <div class="info-item"><i class="fas fa-envelope"></i><span>bengkelhperman@gmail.com</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="nav-logo">
+                        <div class="nav-logo-icon"><i class="fas fa-screwdriver-wrench"></i></div>
+                        <span class="nav-logo-text">Bengkel HP <span>Erman</span></span>
+                    </a>
+                    <p>Solusi terpercaya untuk service smartphone dan jual beli HP second berkualitas. Profesional,
+                        cepat, bergaransi.</p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-btn" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-btn" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h5>Layanan</h5>
+                    <ul>
+                        <li><a href="#services">Ganti Layar</a></li>
+                        <li><a href="#services">Ganti Baterai</a></li>
+                        <li><a href="#services">Port Charger</a></li>
+                        <li><a href="#services">Perbaikan Software</a></li>
+                        <li><a href="#services">HP Kena Air</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Info</h5>
+                    <ul>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#products">HP Second</a></li>
+                        <li><a href="#testimonials">Testimoni</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Bengkel HP Erman. Dibuat dengan <span style="color:var(--orange)">♥</span></p>
+                <p>Service Cepat, Harga Bersahabat</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WA BUTTON -->
+    <a href="#" id="float-wa" onclick="openWhatsApp('Halo, saya mau tanya tentang service HP'); return false;"
+        aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
