@@ -21,7 +21,7 @@ function renderProductCard(p) {
     return `
     <div class="product-card" data-brand="${p.brand}">
         <div class="product-img">
-            <img src="products_bg.png" alt="${p.name}" onerror="this.style.display='none'">
+            <img src="img/products_bg.png" alt="${p.name}" onerror="this.style.display='none'">
             <span class="product-brand-badge">${brandLabel[p.brand] || p.brand}</span>
         </div>
         <div class="product-body">
