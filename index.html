@@ -194,11 +194,13 @@
             </div>
             <div class="filter-bar reveal delay-2">
                 <button class="filter-btn active" onclick="filterProducts('all', this)">Semua</button>
-                <button class="filter-btn" onclick="filterProducts('samsung', this)">Samsung</button>
-                <button class="filter-btn" onclick="filterProducts('oppo', this)">Oppo</button>
-                <button class="filter-btn" onclick="filterProducts('xiaomi', this)">Xiaomi</button>
-                <button class="filter-btn" onclick="filterProducts('vivo', this)">Vivo</button>
-                <button class="filter-btn" onclick="filterProducts('iphone', this)">iPhone</button>
+                <button class="filter-btn" data-brand="samsung" onclick="filterProducts('samsung', this)">Samsung</button>
+                <button class="filter-btn" data-brand="oppo" onclick="filterProducts('oppo', this)">Oppo</button>
+                <button class="filter-btn" data-brand="xiaomi" onclick="filterProducts('xiaomi', this)">Xiaomi</button>
+                <button class="filter-btn" data-brand="vivo" onclick="filterProducts('vivo', this)">Vivo</button>
+                <button class="filter-btn" data-brand="iphone" onclick="filterProducts('iphone', this)">iPhone</button>
+                <button class="filter-btn" data-brand="realme" onclick="filterProducts('realme', this)">Realme</button>
+                <button class="filter-btn" data-brand="infinix" onclick="filterProducts('infinix', this)">Infinix</button>
             </div>
             <div id="products-grid" class="products-grid"></div>
         </div>

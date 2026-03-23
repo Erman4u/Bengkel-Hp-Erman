@@ -1,7 +1,6 @@
 # Bengkel HP Erman
 
-Website company profile dan katalog produk untuk **Bengkel HP Erman**, layanan service smartphone profesional dan tempat jual beli HP second berkualitas.
-
+Ini adalah **projek iseng** yang menggunakan **Google Apps Script** sebagai backend. Website ini merupakan company profile dan katalog produk untuk **Bengkel HP Erman**, layanan service smartphone profesional dan tempat jual beli HP second berkualitas.
 ## Fitur Utama
 - **Desain Premium & Modern**: Tema gelap yang elegan dengan efek *glassmorphism*.
 - **Katalog Produk HP Second**: Filter produk berdasarkan merk (Samsung, Oppo, Xiaomi, Vivo, iPhone).
